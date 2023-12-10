@@ -1,24 +1,13 @@
-import React from 'react';
-import logo from './logo.svg';
+import React, { useRef } from 'react';
 import './App.css';
+import Inputfield from './Components/Inputfield';
 
-function App() {
+const App: React.FC = () => { // arrow function 
+  const myRef = useRef<HTMLInputElement>(null);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.tsx</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App" ref={myRef}>
+      <span className='heading'>Taskify</span>
+      <Inputfield myRef={myRef}/>
     </div>
   );
 }
