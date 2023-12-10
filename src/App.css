@@ -22,3 +22,25 @@
         font-size: 35px;
     }
  }
+ .dark_mode{
+   position: absolute;
+   right: 20px;
+   top: 30px;
+ }
+ .dm_btn>img{
+   width: 50px;
+   height: 50px;
+ }
+ .dm_btn{
+   background: #99c02f;
+   border: none;
+   border-radius: 40px 20px 30px 40px;
+   outline: none;
+   transform: 02s all;
+ }
+ .dm_btn:hover{
+   background: white;
+ }
+ .dark_clr{
+   background: black;
+ }

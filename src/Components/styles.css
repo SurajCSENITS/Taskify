@@ -37,7 +37,7 @@
     box-shadow: 0 0 10px black;
 }
 .input_submit:hover{
-    background-color: #388ae2;
+    background-color: #;
 }
 .input_submit:active{
     transform: scale(0.8);
@@ -64,10 +64,6 @@
 .delete_btn:hover #delete_svg{
     transform: 02s all;
     opacity: .5;
-}
-
-.delete_div{
-    display: none;
 }
 
 
