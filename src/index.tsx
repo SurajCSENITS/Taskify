@@ -11,3 +11,4 @@ root.render(
     <App />
   </React.StrictMode>
 );
+// to run write -> npm start
